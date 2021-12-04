@@ -14,7 +14,8 @@ fn main() {
     println!("The value of x is: {}", x);
 
     let mut name="Mani";
-    println!("The value of name is: {}", name)
+    println!("The value of name is: {}", name);
+    println!("{}", name);
 
 }
 
