@@ -4,9 +4,10 @@ use std::io;
 fn main() {
     println!("Hi Mani Welcome to Learn Rust in Intellij , It is really perfect ");
     let mut guess = String::new();
-    io::stdin().read_line(&mut guess).expect("Failed to read Line");
-    println!("You guessed:{}",guess);
-    println!("You guessed:{}",guess);
+    let mut guess_again = String::new();
+    io::stdin().read_line(&mut guess_again).expect("Failed to read Line");
+    println!("You guessed:{}", guess_again);
+    println!("You guessed:{}", guess_again);
 
 
     let mut x = 5;
